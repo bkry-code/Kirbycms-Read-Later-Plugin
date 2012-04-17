@@ -10,7 +10,7 @@ Put the `readlater.php` file in your `site/plugins` folder.
 
 Simple! Put `<?php echo readlater($page->title(),'instapaper') ?>` in your template and it will echo the a link that let´s you save the page to Instapaper. Do you want to use Pocket? Then you use `<?php echo readlater($page->title(),'pocket') ?>` in your template. 
 
-You can pass any other page variable to use fot the title. I asume that you use `$page->title()` for the title but you are free the change it. 
+You can pass any other page variable to use for the title. I asume that you use `$page->title()` for the title but you are free to change it. 
 
 ## Example usage
 
