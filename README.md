@@ -14,7 +14,7 @@ You can pass any other page variable to use for the title. I asume that you use 
 
 ## Example usage
 
-  <?php snippet('header') ?>
+  `<?php snippet('header') ?>
     <?php snippet('menu') ?>
     <?php snippet('submenu') ?>
 
@@ -28,20 +28,20 @@ You can pass any other page variable to use for the title. I asume that you use 
 
     </section>
 
-    <?php snippet('footer') ?>
+    <?php snippet('footer') ?>`
 
 ## Link text
 
 The plugin let's you change the link text with ease. The default format for Instapaper is `Add to Instapaper`. For Pocket we use `Save to Pocket`.
 
-  <?php 
+  `<?php 
   
   $defaults = array(
     'instapaper'  => 'Add to Instapaper',
     'pocket'      => 'Save to Pocket',
   );
 
-  ?>
+  ?>`
 
 ## Author
 
