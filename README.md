@@ -14,7 +14,7 @@ You can pass any other page variable to use for the title. I asume that you use 
 
 ## Example usage
 
-      <?php snippet('header') ?>
+    <?php snippet('header') ?>
     <?php snippet('menu') ?>
     <?php snippet('submenu') ?>
 
